@@ -33,10 +33,10 @@ Criar um site institucional moderno e organizado para representar uma empresa de
 
 ## 👥 Integrantes do Grupo
 
-- Nome Andrei Luna
-- Nome Beatriz Farias
-- Nome Eloah De Lourenço
-- Nome Lívia Pagiato
+- Nome: Andrei Luna
+- Nome: Beatriz Farias
+- Nome: Eloah De Lourenço
+- Nome: Lívia Pagiato
 
 ---
 
