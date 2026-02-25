@@ -1,0 +1,13 @@
+body{
+    background: #21024a;
+    margin: 0;
+    padding: 0;
+}
+
+.elemento1{
+    width: 1500;
+    height: 1150;
+    margin-left: 100px;
+    background-size: cover;
+    background-image: url(./Imagem/elemento1.PNG);
+}
