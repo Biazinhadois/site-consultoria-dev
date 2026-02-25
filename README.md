@@ -22,6 +22,7 @@ Criar um site institucional moderno e organizado para representar uma empresa de
 - Solicitação de Orçamento
 - Cadastro de Usuário
 - Área exclusiva para cliente
+- Conheça nossa equipe
 
 ## 💡 Conceitos Aplicados
 
