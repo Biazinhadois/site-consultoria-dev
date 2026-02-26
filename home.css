@@ -18,6 +18,12 @@ li {
     position: relative;
 }
 
+/* Agrupar itens da direita */
+.menu-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 
 /* Links do menu */
 li a, .dropbtn {
@@ -69,6 +75,8 @@ li a:hover, .dropdown:hover .dropbtn {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+
 
 
 .banner{
@@ -128,6 +136,7 @@ li a:hover, .dropdown:hover .dropbtn {
     text-align: left;
     padding-left: 30px;
 }
+
 
 .box1{
     background-image: url(.//Imagem/log.png);
@@ -221,3 +230,4 @@ li a:hover, .dropdown:hover .dropbtn {
     z-index: 1000;
 }
  
+
