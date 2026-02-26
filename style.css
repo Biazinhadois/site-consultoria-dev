@@ -5,18 +5,36 @@ body{
 }
 
 .elemento1{
-    width: 1500;
-    height: 1150;
+    width: 1500px;
+    height: 1150px;
     margin-left: 200px;
     background-size: cover;
+    display: flex;
+    justify-content: left; 
+    align-items: left;
+    flex-direction: column;
     background-image: url(./Imagem/elemento1.PNG);
 }
 
-.sora-principal {
-  font-family: "Sora", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-size: 100px;
-  font-style: normal;
-  color: white;
+
+.sora-texto{
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    font-size: 35px;
+    margin-top:60;
 }
+
+.sora-principal{
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+    color: white;
+    font-size: 100px;
+    margin-top: 250;
+    font-weight: bold;
+}
+
+
