@@ -7,7 +7,16 @@ body{
 .elemento1{
     width: 1500;
     height: 1150;
-    margin-left: 100px;
+    margin-left: 200px;
     background-size: cover;
     background-image: url(./Imagem/elemento1.PNG);
+}
+
+.sora-principal {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 100px;
+  font-style: normal;
+  color: white;
 }
