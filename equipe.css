@@ -3,3 +3,51 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.sora-principal {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+    color: white;
+    font-size: 100px;
+    margin-top: 250px;
+    font-weight: bold;
+    margin-left: 200px;
+}
+
+.sora-texto{
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    font-size: 15px;
+    margin-top:60;
+    
+}
+
+.sora-texto2{
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    font-size: 20px;
+    margin-top:60;
+    margin-left: 200px;
+    
+}
+
+.boxes{
+    display: flex;
+    justify-content: left; 
+    align-items: left;
+    flex-direction: row;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+.box1, .box2, .box3, .box4{
+    margin-bottom: 50px;
+    margin-top: 200px;
+    margin-right: 30px;
+}
