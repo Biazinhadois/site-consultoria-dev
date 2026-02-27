@@ -1,1 +1,223 @@
+body {
+    background: #21024a;
+}
 
+/* Menu principal */
+ul {
+    display: flex;
+    align-items: center;          /* alinha verticalmente */
+    justify-content: space-between; /* distribui os itens */
+    background: #3a0283;
+    list-style: none;
+    padding: 10px 40px;
+    margin: 0;
+}
+
+/* Cada item */
+li {
+    position: relative;
+}
+
+
+/* Links do menu */
+li a, .dropbtn {
+    display: block;
+    color: #ffffff;
+    padding: 13px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.login, 
+.dropbtn {
+    background: linear-gradient(135deg, #ff4da6, #a64dff);
+    border-radius: 30px;
+}
+
+/* Hover */
+li a:hover, .dropdown:hover .dropbtn {
+    background: #AC46A1;
+    border-radius: 8px;
+}
+
+/* Caixa do dropdown */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #AC46A1;
+    min-width: 160px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Links dentro do dropdown */
+.dropdown-content a {
+    display: block;
+    padding: 12px 16px;
+    color: #ffffff;
+    text-align: left;
+}
+
+/* Hover dos itens do dropdown */
+.dropdown-content a:hover {
+    background: #C05299;
+}
+
+/* Mostrar dropdown */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.banner{
+    background-image: url(.//Imagem/deco.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 590px;
+    width: 100%;
+
+    text-align:left;
+    padding-left: 15px;
+    padding-top: 150px;
+    font-size: 45px;
+    color:#e0c9a3;
+    font-weight: bold;
+
+}
+.box-banner{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #c05299;
+    background-color: #c05299;
+    border-radius: 60px;
+    margin-left: 80px;
+    margin-top: 60px;
+
+
+     font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.titulo_especial{
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    font-size: 50px;
+}
+
+.mensagem{
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.cadast{
+    text-align: left;
+    padding-left: 30px;
+}
+
+.box1{
+    background-image: url(.//Imagem/log.png);
+    background-size: cover;
+    background-position: center;
+    width: 1500px;
+    height: 380px;
+    border: 1px solid #47126b;
+    background-color: #47126b;
+    border-radius: 1px;
+    margin-left: 600px;
+
+      margin: 100px auto 0 auto;
+      
+  
+}
+
+.sora-texto{
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    font-size: 50px;
+}
+
+
+.sora-principal{
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+    color: white;
+
+    padding-left: 30px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 86px;
+}
+
+.msg{
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 30;
+    font-weight: 250;
+
+}
+.numeros{
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+
+    font-size: 15px;
+    text-align: right;
+    padding-right: 360;
+    font-weight: 250;
+    margin-top: 0;
+
+}
+.barra{
+    width: 190px;
+    height: 35px;
+}
+
+.meu-rodape{
+    background-color:  #3a0283;
+    background-image: url(./Imagem/radap.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+    height: 0px;
+    padding: 280 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: static;
+
+    text-align: left;
+    color: #e2cbac;
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+ 
