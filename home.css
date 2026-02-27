@@ -199,14 +199,14 @@ li a:hover, .dropdown:hover .dropbtn {
 
 .meu-rodape{
     background-color:  #3a0283;
-    background-image: url(./Imagem/radap.png);
+    background-image: url(./Imagem/rodape.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 
     height: 0px;
-    padding: 280 1rem;
+    padding: 290 1rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
