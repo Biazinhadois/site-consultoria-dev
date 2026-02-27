@@ -1,5 +1,5 @@
 body{
-    background: #21024a;
+    background: #230048;
     margin: 0;
     padding: 0;
 }
@@ -48,24 +48,26 @@ body{
 
 .refatoracao{
     background-image: url(./Imagem/Refatoracao.png);
-    width: 200px;
-    height: 150px;
-    background-size: cover;
+    width: 300px;             
+    height: 135px;
+    background-size: contain; 
+    background-repeat: no-repeat;
     background-position: center;
+    margin: 0 auto 20px auto
 }
 
 .poppins-regular {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .poppins-semibold {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 30px;
+  font-size: 22px;
 }
 
 .layout{
@@ -78,26 +80,32 @@ body{
 
 .manutencao{
     background-image: url(./Imagem/manutencao.png);
-    width: 200px;
-    height: 150px;
-    background-size: cover;
+    width: 300px;             
+    height: 160px;
+    background-size: contain; 
+    background-repeat: no-repeat;
     background-position: center;
+    margin: 0 auto 20px auto
 }
 
 .consul_tec{
     background-image: url(./Imagem/consul_tec.png);
-    width: 200px;
+    width: 300px;             
     height: 150px;
-    background-size: cover;
+    background-size: contain; 
+    background-repeat: no-repeat;
     background-position: center;
+    margin: 0 auto 20px auto; 
 }
 
 .dev_inter{
     background-image: url(./Imagem/dev_inter.png);
-    width: 200px;
-    height: 150px;
-    background-size: cover;
+    width: 300px;             
+    height: 120px;
+    background-size: contain; 
+    background-repeat: no-repeat;
     background-position: center;
+    margin: 0 auto 20px auto
 }
 .coluna {
     display: flex;
@@ -111,8 +119,14 @@ body{
     color: white;
 }
 
-.titulo-serv {
+.titulo-serv{
+    font-family: "Poppins", sans-serif;
     color: white;
-    font-size: 60px;
-    margin-bottom: 80px;
+    font-size: 65px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section{
+    padding: 120px 0;
 }
