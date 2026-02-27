@@ -130,3 +130,12 @@ body{
 section{
     padding: 120px 0;
 }
+
+
+ /* Área do cliente */
+
+ .grid-dashboard {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+}
