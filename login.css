@@ -1,0 +1,102 @@
+body {
+    background: #230048;
+    margin: 0;
+    padding: 0;
+}
+
+.loginbox {
+    width: 500px;
+    height: 570px;
+    background-color: rgba(255, 255, 255, 0.788);
+    padding: 70px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 51%;
+    left: 76%;
+    transform: translate(-50%, -50%);
+    border-radius: 10%;
+}
+
+.pfp {
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    height: 35%;
+    margin-left: 33%;
+    margin-top: -70px;
+}
+button {   
+    font-family: "sora", sans-serif;
+    justify-content: center;
+    border: none;
+    outline: none;
+    cursor:pointer;
+    margin-left: -1;
+    margin-top: -235px;
+    width: 130%;
+    height: 45px;
+    text-align: center;
+    background-color: #ff3b93;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: -50px;
+}
+
+.form {
+    margin-left: -52px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    width: 130%;
+    height: 100%;
+}
+.form input {
+    padding: 15px;
+    border: 1px solid #fcfcfc;
+    border-radius: 15px;
+}
+.form input:focus {
+    border-color: #ff3b93;
+    outline: none;
+}
+.form input::placeholder {
+    color: #9e9a9a;
+}
+
+.cadastro {
+    font-family: "sora", sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: -200px;
+    margin-left: -50px;
+}
+.maintitle {
+    font-family: "sora", sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.subtitle1 {
+    font-family: "sora", sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: -10px;
+}
+
+.subtitle2 {
+    font-family: "sora", sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: -10px;
+}
+
+.vantagens {
+    font-family: "sora", sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 27%;
+    margin-left: 8%;
+
+}
