@@ -25,12 +25,13 @@ body {
     margin-left: 33%;
     margin-top: -70px;
 }
-button {   
+
+button {
     font-family: "sora", sans-serif;
     justify-content: center;
     border: none;
     outline: none;
-    cursor:pointer;
+    cursor: pointer;
     margin-left: -1;
     margin-top: -235px;
     width: 130%;
@@ -47,20 +48,23 @@ button {
     margin-left: -52px;
     margin-top: 60px;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     gap: 20px;
     width: 130%;
     height: 100%;
 }
+
 .form input {
     padding: 15px;
     border: 1px solid #fcfcfc;
     border-radius: 15px;
 }
+
 .form input:focus {
     border-color: #ff3b93;
     outline: none;
 }
+
 .form input::placeholder {
     color: #9e9a9a;
 }
@@ -72,6 +76,7 @@ button {
     margin-top: -200px;
     margin-left: -50px;
 }
+
 .maintitle {
     font-family: "sora", sans-serif;
     font-size: 30px;
@@ -92,11 +97,20 @@ button {
     margin-top: -10px;
 }
 
+.circlecheck {
+    display: flex;
+    justify-content: center;
+    width: 5%;
+    height: 5%;
+    margin-left: 3%;
+    margin-top: -15%;
+
+}
+
 .vantagens {
     font-family: "sora", sans-serif;
-    font-size: 15px;
+    font-size: 25px;
     color: #ffffff;
     margin-top: 27%;
     margin-left: 8%;
-
 }
