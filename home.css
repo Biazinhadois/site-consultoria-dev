@@ -5,19 +5,26 @@ body {
 /* Menu principal */
 ul {
     display: flex;
-    align-items: center;          /* alinha verticalmente */
-    justify-content: space-between; /* distribui os itens */
+    align-items: center;
     background: #3a0283;
     list-style: none;
     padding: 10px 40px;
     margin: 0;
+    gap: 15px;
 }
-
 /* Cada item */
 li {
     position: relative;
+
+}
+.login {
+    margin-left:auto;
 }
 
+.login a { 
+     background: linear-gradient(135deg, #ff4da6, #a64dff);
+    border-radius: 30px
+}
 
 /* Links do menu */
 li a, .dropbtn {
@@ -28,11 +35,10 @@ li a, .dropbtn {
     text-align: center;
 }
 
-.login, 
 .dropbtn {
-    background: linear-gradient(135deg, #ff4da6, #a64dff);
     border-radius: 30px;
 }
+
 
 /* Hover */
 li a:hover, .dropdown:hover .dropbtn {
@@ -124,11 +130,6 @@ li a:hover, .dropdown:hover .dropbtn {
     font-weight: 400;
 }
 
-.cadast{
-    text-align: left;
-    padding-left: 30px;
-}
-
 .box1{
     background-image: url(.//Imagem/log.png);
     background-size: cover;
@@ -179,27 +180,24 @@ li a:hover, .dropdown:hover .dropbtn {
     font-weight: 250;
 
 }
-.numeros{
+
+.numeros {
     font-family: "Sora", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
     color: white;
-
     font-size: 15px;
-    text-align: right;
-    padding-right: 360;
-    font-weight: 250;
-    margin-top: 0;
-
+    text-align: center;
+    
 }
+
 .barra{
     width: 190px;
     height: 35px;
+    font-family: "Sora", sans-serif;
 }
 
 .meu-rodape{
     background-color:  #3a0283;
-    background-image: url(./Imagem/rodape.png);
+    background-image: url(./Imagem/certo.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -220,4 +218,10 @@ li a:hover, .dropdown:hover .dropbtn {
     width: 100%;
     z-index: 1000;
 }
- 
+ .ass{
+  background-color: #C05299;
+  font-family: "Sora", sans-serif;
+  height: 38px;
+  width: 70px;
+  border: #C05299;
+}
