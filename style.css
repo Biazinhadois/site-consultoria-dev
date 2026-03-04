@@ -356,3 +356,9 @@ button:hover {
     min-height: 150px; 
     resize: none; 
 }
+
+.box4{
+     background-color: #47126b;
+    border-radius: 42px;
+    padding: 150px 60px;
+}
