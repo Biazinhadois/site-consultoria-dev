@@ -333,7 +333,6 @@ section{
     margin-left: 50;
 }
 
-<<<<<<< HEAD
 .span2{
     margin-left: 275;
 }
@@ -418,7 +417,6 @@ table{
 thead{
     background-color: #3a0283;
 }
-=======
 
 .box {
     background-color: #47126b;
@@ -556,7 +554,6 @@ button:hover {
     flex-direction: column;
     gap: 15px; 
 }
-<<<<<<< HEAD
 .text-box{
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
@@ -630,6 +627,3 @@ button:hover {
     width: 50px;
     margin-left: 500px;
 }
-=======
->>>>>>> b162f8f36b531563e7151cb262be121b873a36b3
->>>>>>> c10e8635ed1086ad4520954619509ee6206b1663
