@@ -2,114 +2,142 @@
     <head>
         <title>Área do cliente</title>
 
-         <!-- Fonte Sora Bold 700 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+        <!-- Fonte Sora Bold 700 -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
 
-    <!-- Fonte Popping regular e semibold -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+        <!-- Fonte Popping regular e semibold -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
-    <!-- Embed code -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+        <!-- Embed code -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
 
-    <!-- Imagem no título -->
-     <link rel="icon" type="image/png" href="./Imagem/logo.png">
+        <!-- Imagem no título -->
+        <link rel="icon" type="image/png" href="./Imagem/logo.png">
     
-    <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./style.css">
 
     </head>
 
-<body>
+    <body>
+        <main>
+            <section class="dashboard">
+                <div class="elemento2">
+                
+                    <!-- Texto de Boas-Vindas -->
+                        <h1 class="sora-textoV2"> Bem-vindo de volta, <span class="texto-colorido">(Nome do Cliente)!</span></h1>
+                        <p class="sora-textoV3"> Status da Parceria: <span style="color: #18ad00;">Ativo</span> | Squad Alocado: <span style="color:#18ad00;">Alpha-7</span></p>
 
-<section class="dashboard">
-<div class="elemento2">
+                    <div class="grid-dashboard">
 
-    <h1 class="sora-textoV2"> Bem-vindo de volta, <span class="texto-colorido">(Nome do Cliente)!</span></h1>
+                        <!-- Grid para colocar itens somente na esquerda -->
+                        <div class="esquerda">
 
-   <p class="sora-textoV3"> Status da Parceria: <span style="color: #18ad00;">Ativo</span> | Squad Alocado: <span style="color:#18ad00;">Alpha-7</span>
-    </p>
+                            <!-- Box de Visão Geral dos Projetos -->
+                                <h1 class="sora-textoV4"><img src="./Imagem/elemento3.png" width="55">Visão Geral dos Projetos</h1>
 
-    <div class="grid-dashboard">
+                                <div class="box">
+                                    <div class="linha-tabela cabecalho">
+                                        <div>Projeto</div>
+                                        <div>Produtos</div>
+                                        <div>Progresso</div>
+                                    </div>
 
-        <div class="esquerda">
-            <h1 class="sora-textoV4"><img src="./Imagem/elemento3.png" width="55">Visão Geral dos Projetos</h1>
+                                    <!-- Linha Para separar itens -->
+                                    <hr class="hr-box">
 
-            <div class="box">
-                <div class="linha-tabela cabecalho">
-                    <div>Projeto</div>
-        <div>Projeto</div>
-        <div>Produtos</div>
-        <div>Progresso</div>
-    </div>
+                                    <div class="linha-tabela">
+                                        <div class="nome-projeto">Redesign E-commerce</div>
+                                        <div class="status-produto"><span class="bolinha amarela"></span> 65%</div>
+                                        <div class="container-barra">
+                                            <div class="barra-fundo">
+                                                <div class="barra-progresso amarela" style="width: 65%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
 
-    <hr class="hr-box">
+                                    <div class="linha-tabela">
+                                        <div class="nome-projeto">API Integration</div>
+                                        <div class="status-produto"><span class="bolinha verde"></span> 85%</div>
+                                        <div class="container-barra">
+                                            <div class="barra-fundo">
+                                                <div class="barra-progresso verde" style="width: 85%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
 
-    <div class="linha-tabela">
-        <div class="nome-projeto">Redesign E-commerce</div>
-        <div class="status-produto">
-            <span class="bolinha amarela"></span> 65%
-        </div>
-        <div class="container-barra">
-            <div class="barra-fundo">
-                <div class="barra-progresso amarela" style="width: 65%;"></div>
-            </div>
-        </div>
-    </div>
+                                    <div class="linha-tabela">
+                                        <div class="nome-projeto">Consultoria UX</div>
+                                        <div class="status-produto"><span class="bolinha vermelha"></span> 10%
+                                        </div>
+                                        <div class="container-barra">
+                                            <div class="barra-fundo">
+                                                <div class="barra-progresso vermelha" style="width: 10%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
 
-    <div class="linha-tabela">
-        <div class="nome-projeto">API Integration</div>
-        <div class="status-produto">
-            <span class="bolinha verde"></span> 85%
-        </div>
-        <div class="container-barra">
-            <div class="barra-fundo">
-                <div class="barra-progresso verde" style="width: 85%;"></div>
-            </div>
-        </div>
-    </div>
-
-    <div class="linha-tabela">
-        <div class="nome-projeto">Consultoria UX</div>
-        <div class="status-produto">
-            <span class="bolinha vermelha"></span> 10%
-        </div>
-        <div class="container-barra">
-            <div class="barra-fundo">
-                <div class="barra-progresso vermelha" style="width: 10%;"></div>
-            </div>
-        </div>
-    </div>
-
-    <hr class="hr-box">
-</div>
-
-            <h1 class="sora-textoV5"><img src="./Imagem/elemento7.png"  width="55">Fale com o Squad!</h1>
+                                        <!-- Linha Para separar itens -->
+                                    <hr class="hr-box">
+                            
+                                </div>
             
-            <div class="box3">
-                <form class="form-squad">
-                    <input type="text" placeholder="   Assunto">
-                    <textarea type="text" placeholder="   Sua Mensagem"></textarea>
-                </form>
-                <button type="submit">Enviar Mensagem</button>
+            
+                            <!-- Box de Fale com o Squad! -->
+                                <!-- Segunda Parte da coluna -->
+                                <h2 class="sora-textoV5"><img src="./Imagem/elemento7.png"  width="55">Fale com o Squad!</h2>
+            
+                                <div class="box3">
+                                    <form class="form-squad">
+                                        <input type="text" placeholder="   Assunto">
+                                        <textarea type="text" placeholder="   Sua Mensagem"></textarea>
+                                        <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+                                    </form>
+                                </div>
+                        </div>
 
-            </div>
 
-        </div>
+                        <!-- Grid para colocar itens somente na direita -->
+                        <div class="direita">
 
-        <div class="direita">
-                <h1 class="sora-textoV4"><img src="./Imagem/elemento3.png" width="55">Visão Geral dos Projetos</h1>
-            <div class="box4"></div>
-        </div>
+                            <!-- Box de Relátorio de Horas -->
+                                <h1 class="sora-textoV6">Relátorio de Horas Fev/26</h1>
+                                <div class="box4">
+                                    <div class="elemento4"></div>
+                                    <div class="text-box">Seu pacote contratado é de 80 horas mensais.</div>
+                                    <div class="dm-sans"><span style="font-weight: bold;">Horas Consumidas:</span> 52h<br>
+                                    <span style="font-weight: bold;">Saldo Disponível:</span> 28h<br>
+                                    <span style="font-weight: bold;">Ritmo atual:</span> Ideal <br>
+                                    (Garante a entrega sem estourar o banco de horas).</div>
+                                </div>
 
-    </div>
+                            <!-- Segunda Parte da coluna -->
+                        
+                                <h1 class="sora-textoV6"><img src="./Imagem/elemento5.png"  width="55">Faturamento</h1>
+                                <div class="box5">
+                                    <div class="dm-sans">
+                                        <span style="font-weight: bold;">Vencimento:</span> 05/03/2026<br><br>
+                                        <span style="font-weight: bold;">Valor:</span> R$ 2.497/mês<br><br>
+                                        <span style="font-weight: bold;">Status:</span>🟡Aguardando Pagamento<br><br>
+                                        <p class="dm-sans2" >Pague Via Pix  (Copia e Cola):</p>
+                                    <div class="box6">
+                                        <div class="elemento6"></div>
+                                        <div class="pix">000020126580014br.gov.bcb.pix0136a1f4b9c3e8a74f6...</div>
+                                    </div>
+                                    </div>
+                                </div>
 
-</div>
-</section>
+                        </div>
+                    </div>
 
-</body>
+                </div>
+
+            </section>
+        </main>
+    </body>
 </html>
