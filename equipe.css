@@ -44,16 +44,90 @@ body{
     flex-direction: row;
     margin-right: 200px;
     margin-top: 30px;
+    
 }
 
 .box1, .box2, .box3, .box4{
     margin-bottom: 50px;
     margin-top: 100px;
     margin-right: 30px;
-}
+    position: relative;
+  }
+  
 
 .foto{
     width: 320px;
     height: 300px;
     border-radius: 10%;
+}
+
+.github img{
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+    position: absolute;
+    bottom: 0; 
+    right: 0;
+
+}
+
+.sora-sub{
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+    color: white;
+    font-size: 45px;
+    margin-top: 100px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+
+.caixa1, .caixa2, .caixa3 {
+    background-color: #3a045c;
+    width: 500px;
+    height: 300px;
+    border-radius: 15%;
+   
+    
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+   margin-top: 120px;
+   gap: 50px;
+   margin-right: 300px;
+}
+
+.paragrafo {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  
+}
+
+.icone{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    display: block;      
+    margin-left: auto;   
+    margin-right: auto;
+}
+
+.elemento1{
+    width: 2000px;
+    height: 2000px;
+    margin-left: 200px;
+    background-size: cover;
+    display: flex;
+    justify-content: left; 
+    align-items: left;
+    flex-direction: column;
+    background-image: url(./Imagem/elemento1.PNG);
 }
