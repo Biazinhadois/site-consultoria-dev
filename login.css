@@ -17,6 +17,11 @@ body {
     border-radius: 10%;
 }
 
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .pfp {
     display: flex;
     justify-content: center;
