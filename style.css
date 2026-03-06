@@ -1,13 +1,7 @@
 body{
-
     background: #230048;
     margin: 0;
     padding: 0;
-    background-image: url(./Imagem/elemento2.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 110vw;
-    background-attachment: fixed;
 }
 
 .elemento1{
@@ -22,6 +16,14 @@ body{
     background-image: url(./Imagem/elemento1.PNG);
 }
 
+.elemento2{
+    background-image: url(./Imagem/elemento2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 1150px;
+    width: 100%;
+}
 
 .sora-texto{
     font-family: "Sora", sans-serif;
@@ -212,7 +214,7 @@ body{
   font-size: 18px;
 }
 
-.poppins-regular {
+.poppins-regular2 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 18px;
