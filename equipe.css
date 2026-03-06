@@ -3,7 +3,94 @@ body{
     margin: 0;
     padding: 0;
 }
+/* Menu principal */
+ul {
+    display: flex;
+    align-items: center;
+    background: #3a0283;
+    list-style: none;
+    padding: 10px 0px;
+    margin: 0;
+    gap: 15px;
 
+    position: fixed;   /* MENU FIXO */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+/* Cada item */
+li {
+    position: relative;
+
+}
+.login {
+    margin-left:auto;
+}
+
+.login a { 
+    background: linear-gradient(135deg, #ff4da6, #a64dff);
+    border-radius: 30px
+}
+
+/* Links do menu */
+li a, .dropbtn {
+    display: block;
+    color: #ffffff;
+    padding: 13px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.dropbtn {
+    border-radius: 30px;
+}
+
+
+/* Hover */
+li a:hover, .dropdown:hover .dropbtn {
+    background: #AC46A1;
+    border-radius: 8px;
+}
+
+/* Caixa do dropdown */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #AC46A1;
+    min-width: 160px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Links dentro do dropdown */
+.dropdown-content a {
+    display: block;
+    padding: 12px 16px;
+    color: #ffffff;
+    text-align: left;
+}
+
+/* Hover dos itens do dropdown */
+.dropdown-content a:hover {
+    background: #C05299;
+}
+
+/* Mostrar dropdown */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.barra{
+    width: 190px;
+    height: 35px;
+    font-family: "Sora", sans-serif;
+    border: 1px solid palevioletred;
+    outline: none;
+} 
+
+/* FIM DO DROPDOWN */
 .sora-principal {
     font-family: "Sora", sans-serif;
     font-optical-sizing: auto;

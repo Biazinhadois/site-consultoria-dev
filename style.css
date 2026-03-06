@@ -4,6 +4,97 @@ body{
     padding: 0;
 }
 
+
+/* Menu principal */
+ul {
+    display: flex;
+    align-items: center;
+    background: #3a0283;
+    list-style: none;
+    padding: 10px 0px;
+    margin: 0;
+    gap: 15px;
+
+    position: fixed;   /* MENU FIXO */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+/* Cada item */
+li {
+    position: relative;
+
+}
+.login {
+    margin-left:auto;
+}
+
+.login a { 
+    background: linear-gradient(135deg, #ff4da6, #a64dff);
+    border-radius: 30px
+}
+
+/* Links do menu */
+li a, .dropbtn {
+    display: block;
+    color: #ffffff;
+    padding: 13px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.dropbtn {
+    border-radius: 30px;
+}
+
+
+/* Hover */
+li a:hover, .dropdown:hover .dropbtn {
+    background: #AC46A1;
+    border-radius: 8px;
+}
+
+/* Caixa do dropdown */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #AC46A1;
+    min-width: 160px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Links dentro do dropdown */
+.dropdown-content a {
+    display: block;
+    padding: 12px 16px;
+    color: #ffffff;
+    text-align: left;
+}
+
+/* Hover dos itens do dropdown */
+.dropdown-content a:hover {
+    background: #C05299;
+}
+
+/* Mostrar dropdown */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.barra{
+    width: 190px;
+    height: 35px;
+    font-family: "Sora", sans-serif;
+    border: 1px solid palevioletred;
+    outline: none;
+} 
+
+/* FIM DROPDOWN */
+
+/* Coisa da bia */
 .elemento1{
     width: 1500px;
     height: 1150px;
@@ -454,4 +545,117 @@ button:hover {
     height: 50px;
     width: 50px;
     margin-left: 500px;
+}
+/* Acabou */
+
+/* PLANOS DE MANUTENÇÃO */
+.box8, .box9, .box10 {
+    background-color: #6725cc;
+    width: 380px;
+    height: 500px;
+    border-radius: 15%;
+   
+    
+}
+
+.preco{
+    background-image: linear-gradient(90deg, #ea698b, #d55d92, #dc62b1, #f44693, #ff00bf);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* PLANOS FIM */
+
+
+
+/* COMEÇO TABELA */
+.banner2{
+    height: 620px;
+    width: 100%;
+}
+
+table td, table th{
+    border: 1px solid;
+    padding: 5px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+table{
+    background-color:#230048;
+    border-collapse: collapse;
+    width: 920px;
+
+    text-align: center;
+
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    font-size: 20px;
+
+    margin: auto;
+    
+}
+thead{
+    background-color: #3a0283;
+}
+
+/* TABELA FIM */
+
+/* PORTFOLIO */
+.banner{
+    background-image: url(./Imagem/port.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 590px;
+    width: 100%;
+
+    text-align:left;
+    padding-left: 15px;
+    padding-top: 120px;
+    font-size: 45px;
+    color:#e0c9a3;
+    font-weight: bold;
+}
+
+.portft{
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    font-size: 50px;
+}
+
+
+.box-banner{
+    background-image: url(./Imagem/portfolipo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+    width: 1500px;
+    height: 380px;
+    border: 1px solid#47126b;
+    background-color:#47126b;
+    border-radius: 60px;
+    margin-left: 80px;
+    margin-top: 65px;
+}
+
+
+/* PORT FIM */
+
+.span2{
+    margin-left: 275;
 }
