@@ -5,7 +5,7 @@ body {
 }
 
 .titulox {
-    font-family: "sora";
+    font-family: "sora", sans-serif;
     font-size: 20px;
     color: rgba(255, 255, 255, 0.753);
     text-align: center;
@@ -61,6 +61,7 @@ body {
     margin-right: 20px;
     margin-left: 500px;
     margin-top: -338px;
+
 }
 
 .informacoes select {
@@ -68,14 +69,14 @@ body {
     border-radius: 50px;
     background-color: #9340ff;
     color: #ffffffa6;
-    font-family: "sora";
+    font-family: "sora", sans-serif;
 }
 
 .formulario input {
     padding: 25px;
     border-radius: 50px;
     background-color: #9340ff;
-    font-family: "sora";
+    font-family: "sora", sans-serif;
 }
 
 .formulario input::placeholder {
@@ -142,15 +143,4 @@ body {
 
 .enviar button:hover {
     background-color: #7a2cc1;
-}
-
-.logoorc {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 150px;
-}
-.logoorc img {
-    width: 180%;
-    height: auto;
 }
