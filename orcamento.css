@@ -7,7 +7,7 @@ body {
 .titulox {
     font-family: "sora";
     font-size: 20px;
-    color: white;
+    color: rgba(255, 255, 255, 0.753);
     text-align: center;
     margin: 50px 0;
     margin-top: 200px
@@ -65,7 +65,7 @@ body {
 
 .informacoes select {
     padding: 25px;
-    border-radius: 15px;
+    border-radius: 50px;
     background-color: #9340ff;
     color: #ffffffa6;
     font-family: "sora";
@@ -73,7 +73,7 @@ body {
 
 .formulario input {
     padding: 25px;
-    border-radius: 15px;
+    border-radius: 50px;
     background-color: #9340ff;
     font-family: "sora";
 }
@@ -90,7 +90,7 @@ body {
 
 .formulario select {
     padding: 25px;
-    border-radius: 15px;
+    border-radius: 50px;
     background-color: #9340ff;
     color: #ffffffa6;
 }
@@ -99,4 +99,58 @@ body {
     outline: none;
     border: 2px solid #9340ff;
     color: #ffffff;
+}
+
+.textarea textarea {
+    width: 130%;
+    height: 200px;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: #9340ff;
+    color: #ffffffa6;
+    font-family: "sora";
+    resize: none;
+    margin-left: 500px;
+    margin-top: -362px;
+}
+
+.textarea input {
+    color: white;
+}
+
+.textarea textarea::placeholder {
+    color: #ffffffa6;
+}
+
+.textarea textarea:focus {
+    outline: none;
+    border: 2px solid #9340ff;
+    color: #ffffff;
+}
+
+.enviar button {
+    padding: 30px 70px;
+    border-radius: 60px;
+    background-color: #9340ff;
+    color: #ffffff;
+    font-family: "sora";
+    border: none;
+    cursor: pointer;
+    margin-left: 170%;
+    margin-top: -150px;
+}
+
+.enviar button:hover {
+    background-color: #7a2cc1;
+}
+
+.logoorc {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 150px;
+}
+.logoorc img {
+    width: 180%;
+    height: auto;
 }
