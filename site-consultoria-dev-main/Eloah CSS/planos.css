@@ -1,0 +1,253 @@
+body{
+    background-color: #21024a; 
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../Imagem/ondas1.png'), url('../Imagem/ondas2.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom left, top right;
+    background-size: 80vw, 80vw;
+    background-attachment: fixed;
+
+}
+
+.sora-principal {
+    font-family: "Sora", sans-serif;
+    font-weight: 700px;
+    font-style: normal;
+    color: white;
+    font-size: 90px;
+    margin-top: 250px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sora-texto2{
+    font-family: "Sora", sans-serif;
+    font-style: normal;
+    color: white;
+    font-size: 17px;
+    margin-top:60;
+    text-align: center;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+
+    
+}
+
+.boxes{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 140px;
+    gap: 50px;
+    
+}
+
+
+
+
+.box1, .box2, .box3 {
+    background-color: #6725cc;
+    width: 400px;
+    height: 500px;
+    border-radius: 15%;
+    position: relative;
+    z-index: 1;
+   
+    
+}
+
+.preco{
+    background-image: linear-gradient(90deg, #ea698b, #d55d92, #dc62b1, #f44693, #ff00bf);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.estrela-topo {
+    position: absolute;
+    left: 50%;
+    top: -70px;
+    width: 220px;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.btn-assine {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(90deg, #ff5b7f, #a14ae5);
+    color: white;
+    padding: 12px 45px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(255, 0, 128, 0.2);
+    transition: transform 0.2s ease;
+    font-family: "Sora", sans-serif;
+    border: none;
+    text-decoration: none; 
+    display: flex;
+}
+ 
+.btn-assine:hover {
+    transform: translateX(-50%) scale(1.05); 
+}
+
+/* --- Container Principal do Menu --- */
+.menu-superior, ul {
+    display: flex;
+    align-items: center;
+    background: #3a0283; /* Cor puxada da classe .menu-superior */
+    list-style: none;
+    padding: 10px 0px;
+    margin: 0;
+    gap: 15px;
+    position: fixed;   
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.menu-superior li, li {
+    position: relative;
+}
+
+/* --- Links e Textos Padrões --- */
+.menu-superior li a, 
+.menu-superior .dropbtn, 
+li a, 
+.dropbtn {
+    display: block;
+    color: #ffffff;
+    padding: 13px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.dropbtn {
+    border-radius: 30px;
+    font-size: 19px;
+    font-family: "Sora", sans-serif;
+    font-style: normal;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background: #AC46A1;
+    border-radius: 8px;
+}
+
+/* --- Dropdown --- */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #AC46A1;
+    min-width: 160px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 12px 16px;
+    color: #ffffff;
+    text-align: left;
+    font-family: "Sora", sans-serif;
+    font-style: normal;
+}
+
+.dropdown-content a:hover {
+    background: #C05299;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* --- Barra de Pesquisa --- */
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.15); /* Fundo translúcido */
+    border-radius: 30px;
+    padding: 5px 5px 5px 20px;
+    width: 350px; 
+}
+
+.barra {
+    width: 100%;
+    height: auto;
+    background: transparent;
+    border: none;
+    color: white;
+    font-family: "Sora", sans-serif;
+    font-size: 16px;
+    outline: none;
+}
+
+.barra::placeholder {
+    color: rgba(255, 255, 255, 0.5); /* Placeholder suave */
+}
+
+.btn-search {
+    background-color: #c45b9b;
+    border: none;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-search svg {
+    width: 18px;
+    height: 18px;
+}
+
+/* --- Botões da Direita (Login / Sign Up) --- */
+.login {
+    font-family: "Sora", sans-serif;
+    margin-left: auto; /* Joga os itens para a direita */
+}
+
+.login a { 
+    background: #c15598;
+    border-radius: 30px;
+    margin-right: 50px;
+}
+
+.sing a {
+    font-family: "Sora", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    margin-left: 870px; /* Considere usar margens dinâmicas (ex: margin-left: auto) futuramente para não quebrar em telas menores */
+}
+
+
+.hr-box {
+    opacity: 0.5;
+    width: 100%;
+    margin: 15px 0;
+    height: 2;
+    background-color: white;
+    margin-top: 180px;
+}

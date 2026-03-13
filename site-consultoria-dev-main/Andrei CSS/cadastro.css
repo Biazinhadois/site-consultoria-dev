@@ -1,0 +1,153 @@
+body {
+    background: #230048;
+    margin: 0;
+    padding: 0;
+}
+
+/*Caixa de cadastro*/
+.cadbox {
+    width: 500px;
+    height: 750px;
+    background-color: #fffffff3;
+    padding: 70px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 51%;
+    left: 76%;
+    transform: translate(-50%, -50%);
+    border-radius: 10%;
+}
+
+/*Profile icon*/
+.pfpcad {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    height: 25%;
+    margin-left: 37%;
+    margin-top: -70px;
+}
+
+/*Botão de enviar*/
+button {
+    font-family: "sora", sans-serif;
+    justify-content: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: -1;
+    margin-top: -200px;
+    width: 130%;
+    height: 45px;
+    text-align: center;
+    background-color: #ff3b93;
+    color: #ff3b93;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: -50px;
+}
+
+/*Formulário*/
+.formcad {
+    margin-left: -51px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 125%;
+    height: 100%;
+}
+
+.formcad input {
+    padding: 15px;
+    border: 1px solid #fcfcfc;
+    border-radius: 15px;
+}
+
+.formcad input:focus {
+    border-color: #ff3b93;
+    outline: none;
+}
+
+.formcad input::placeholder {
+    color: #9e9a9a;
+}
+
+/*Títulos e subtítulos*/
+.maintitlecad {
+    font-family: "sora", sans-serif;
+    font-size: 41px;
+    color: #ffffff;
+    margin-top: 265px;
+    margin-left: 8%;
+
+}
+
+.subtitle1cad {
+    font-family: "sora", sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    margin-top: -10px;
+    margin-left: 8%;
+    color: #f0edfbde;
+}
+
+.subtitle2cad {
+    font-family: "sora", sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    margin-top: -10px;
+    margin-left: 8%;
+    color: #f0edfbde;
+}
+
+/*Imagens de check circular*/
+.circlecheck1cad {
+    display: flex;
+    justify-content: center;
+    width: 4%;
+    height: 5%;
+    margin-left: 7%;
+    margin-top: -226.9px;
+}
+
+.circlecheck2cad {
+    display: flex;
+    justify-content: center;
+    width: 4%;
+    height: 5%;
+    margin-left: 7%;
+    margin-top: 10px;
+}
+
+.circlecheck3cad {
+    display: flex;
+    justify-content: center;
+    width: 4%;
+    height: 5%;
+    margin-left: 7%;
+    margin-top: 10px;
+}
+
+.circlecheck4cad {
+    display: flex;
+    justify-content: center;
+    width: 4%;
+    height: 5%;
+    margin-left: 7%;
+    margin-top: 10px;
+}
+
+/*Vantagens*/
+.vantagenscad {
+    font-family: "sora", sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    margin-top: 85px;
+    margin-left: 11%;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
